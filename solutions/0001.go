@@ -12,7 +12,7 @@ import (
 
 func main() {
     sum := findSum();
-    fmt.Println("Sum of all the multiples of 3 or 5 below 1000 is "+ strconv.Itoa(sum)); //Sum of all the multiples of 3 or 5 below 1000 is 234168
+    fmt.Println("Sum of all the multiples of 3 or 5 below 1000 is "+ strconv.Itoa(sum)); //Sum of all the multiples of 3 or 5 below 1000 is 233168
 }
 
 func findSum() int{
